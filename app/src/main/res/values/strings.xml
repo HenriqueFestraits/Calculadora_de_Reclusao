@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Teste calculo tempo de exclusao</string>
+    <string name="texto_intro_1">Como funciona?</string>
+    <string name="texto_intro_2">Informe os dados da pena e a calculadora fará\n
+        uma estimativa automática do tempo restante\n
+        e progressão de regime.</string>
+    <string name="app_title">CALCULADORA DE RECLUSÃO</string>
+    <string name="devs_names">\tEnzo Mardegan Gallego\n
+        Henrique Ferreira Festraits\n
+        Pedro Henrique Germano Dias
+    </string>
+    <string name="texto_botao">Prosseguir</string>
+    <string name="texto_calendario">Data de Início da Pena: </string>
+    <string name="hint_calendario">Selecione a data de Início da Pena</string>
+    <string name="texto_pena"> Pena Total: </string>
+    <string name="texto_coleta">Insira os dados abaixo para o cálculo penal:</string>
+    <string name="texto_ano">Anos de pena:</string>
+    <string name="texto_mes">Meses de pena:</string>
+    <string name="texto_dia">Dias de pena:</string>
+    <string name="texto_reu">Réu Primário</string>
+    <string name="texto_hediondo">Crime Hediondo</string>
+    <string name="texto_tipo">Tipo de Crime:</string>
+    <string name="texto_enviar">ENVIAR</string>
+    <string name ="texto_resultado">Com base nos dados informados,
+        \no detento terá o seguinte cronograma: </string>
+    <string name="texto_whatsapp">Entrar em contato com um advogado</string>
+    <string name="texto_Recalcular">Realizar um novo cálculo</string>
+    <string name="texto_condicional">Liberdade Condicional a partir de:</string>
+    <string name="texto_progressao">Progressão de Regime a partir de:</string>
+</resources>

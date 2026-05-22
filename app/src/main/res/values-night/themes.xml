@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TesteCalculoTempoDeExclusao" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <color name="card_background">@color/black</color>
+    <color name="button_background">@color/white</color>
+    <color name="card_text">@color/white</color>
+    <color name="button_text">@color/white</color>
+    <color name="desc_text">#B5B5B5</color>
+</resources>
