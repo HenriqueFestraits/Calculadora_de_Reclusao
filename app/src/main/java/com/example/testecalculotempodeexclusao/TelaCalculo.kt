@@ -20,20 +20,27 @@ class TelaCalculo : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_tela_calculo)
 
-        //recebe a data do calendário
+        //conecta com a caixa de texto da data
         val txtCalendar = findViewById<EditText>(R.id.textCalendar)
 
+        //variáveis da data
         var diaSelecionado = 0
         var mesSelecionado = 0
         var anoSelecionado = 0
 
+        //quando a caixa de texto da data é pressionado
         txtCalendar.setOnClickListener{
+
+            //recebe a data do calendáro
             val calendario = Calendar.getInstance()
 
+            //recebe o dia, mes e ano selecionados no calendário
             val anoInicio = calendario.get(Calendar.YEAR)
             val mesInicio = calendario.get(Calendar.MONTH)
             val diaInicio = calendario.get(Calendar.DAY_OF_MONTH)
 
+
+            //inicia o calendário
             val datePicker = DatePickerDialog(
                 this,
                 { _, year, month, dayOfMonth ->
@@ -67,10 +74,10 @@ class TelaCalculo : AppCompatActivity() {
         val checkBoxReu = findViewById<CheckBox>(R.id.checkBoxReu)
         val checkBoxHediondo = findViewById<CheckBox>(R.id.checkBoxHediondo)
 
-        //recebe o pressionar do botão
+        //recebe o pressionar do botão de enviar
         val btnEnviar = findViewById<Button>(R.id.btnEnviar)
 
-        //quando o botão é pressionado
+        //quando o botão de enviar é pressionado
         btnEnviar.setOnClickListener {
 
             if(anoSelecionado < 1970){//validação de data

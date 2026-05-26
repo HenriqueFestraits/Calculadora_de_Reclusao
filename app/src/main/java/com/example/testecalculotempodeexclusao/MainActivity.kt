@@ -13,11 +13,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
+
+        //recebe o pressionar do botão de prosseguir
         val botao = findViewById<Button>(R.id.btnProsseguir)
 
+        //quando o botão de prosseguir é pressionado
         botao.setOnClickListener {
 
+            //conecta com a tela de cálculo
             val intent = Intent(this, TelaCalculo::class.java)
+            //incia a tela de cálculo
             startActivity(intent)
         }
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
